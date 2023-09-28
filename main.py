@@ -84,7 +84,7 @@ if __name__ == '__main__':
     # Read config object
     with open('config.json', 'r') as f:
         config = json.load(f)
-    api_token = config['config']['todoist_api_token']  # Don't put secrets in VC!  Make this a symlink to somewhere out-of-project!
+    api_token = config['config']['todoist_api_token_symlink']  # Don't put secrets in VC!  Make this a symlink to somewhere out-of-project!
     work_project_color = config['config']['work_project_color']
     work_label_name = config['config']['work_label_name']
 
