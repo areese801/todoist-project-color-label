@@ -17,6 +17,9 @@ virtualenv/
 .venv/
 venv/
 
+# Don't track the log file
+*.log
+
 
 # Ignore the config file which may contain a secret (API Token)
 config.json
