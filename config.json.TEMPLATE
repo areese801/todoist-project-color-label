@@ -1,0 +1,7 @@
+{
+  "config": {
+    "todoist_api_token": "STRING OR VALID PATH TO FLAT FILE CONTAINING TOKEN GOES HERE.  FLAT FILE OUT-OF-PROJECT IS RECOMMENDED"
+    , "work_project_color": "sky_blue"
+    , "work_label_name": "work"
+  }
+}

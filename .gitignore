@@ -16,3 +16,7 @@
 virtualenv/
 .venv/
 venv/
+
+
+# Ignore the config file which may contain a secret (API Token)
+config.json
