@@ -11,4 +11,4 @@ This tool will apply a label (like your company name) to tasks that are beneath 
 3. Make a copy of config.json.TEMPLATE and name it config.json
 4. Configure it
 5. NEVER EVER EVER EVER put your API key or other secrets under version control.  EVER!  (I'm looking at you, config.json)
-6. Set up a cron tab to run this script periodically.  It might look kike this:  `*/15 * * * * cd ~/projects/todoist-project-color-label && bash go.sh > todoist-project-color-label.log 2>&1`
+6. Set up a cron tab to run this script periodically.  It might look like this:  `*/15 * * * * cd ~/projects/todoist-project-color-label && bash go.sh > todoist-project-color-label.log 2>&1`
