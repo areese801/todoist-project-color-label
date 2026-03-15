@@ -1,7 +1,11 @@
-# Tool thingy that applies a label to tasks under a colored parent project
+# This project is archived
+This core functionality has been incorporated into [todoist_toolbox](https://github.com/areese801/todoist_toolbox)
+
+---
+## Tool thingy that applies a label to tasks under a colored parent project
 This tool will apply a label (like your company name) to tasks that are beneath a parent Todoist Project of a specific color (Like your company's color)
 
-# Set up
+## Set up
 1. Clone this repo
 2. Run make_env.sh
 3. Make a copy of config.json.TEMPLATE and name it config.json
